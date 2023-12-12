@@ -1,6 +1,20 @@
-body{
-  background-color: wheat;
+.father{
+  height: 100vh;
+  display: flex;  /*.box를 위한 display*/
+  gap: 10px;
+  justify-content: flex-end;
+  /*flex-flow: row wrap*/
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-h1{
-  color: blue;
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  color: white;
+  font-size:30px;
+  display: flex;  /*.box안 글씨를 위한 display*/
+  justify-content: center;
+  align-items: center;
 }
