@@ -30,7 +30,8 @@ body {
   background-color: teal;
   /*align-self: center;
   justify-self: end;*/
-  place-self: start end;
+  place-self: center;
+  grid-column: span 2;
   
 }
 
